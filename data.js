@@ -56,11 +56,6 @@ const projectsData = [
         link: "https://top-tests.uz/",
         details: "https://github.com/AsilbekAbdusattorov/TopTest",
         tags: ["Education", "Online Tests",],
-        stats: {
-            likes: 124,
-            views: 856,
-            downloads: 42
-        }
     },
     {
         title: "FSA System",
@@ -70,11 +65,6 @@ const projectsData = [
         link: "https://fsa-systeam.vercel.app/",
         details: "https://github.com/AsilbekAbdusattorov/FSA-Systeam",
         tags: ["Business Automation", "IT Solutions"],
-        stats: {
-            likes: 89,
-            views: 542,
-            downloads: 31
-        }
     },
     {
         title: "Ликвидация ООО",
@@ -84,11 +74,6 @@ const projectsData = [
         link: "https://russia-eight.vercel.app/",
         details: "https://github.com/AsilbekAbdusattorov/russia",
         tags: ["Business Services", "Legal Services"],
-        stats: {
-            likes: 156,
-            views: 923,
-            downloads: 78
-        }
     }
     
 ];

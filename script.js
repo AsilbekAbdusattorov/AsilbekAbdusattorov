@@ -117,20 +117,6 @@ projectsData.forEach(project => {
             <div class="project-technologies">
                 ${project.technologies.map(tech => `<span>${tech}</span>`).join('')}
             </div>
-            <div class="project-stats">
-                <div class="project-stat">
-                    <i class="fas fa-heart"></i>
-                    <span>${project.stats.likes}</span>
-                </div>
-                <div class="project-stat">
-                    <i class="fas fa-eye"></i>
-                    <span>${project.stats.views}</span>
-                </div>
-                <div class="project-stat">
-                    <i class="fas fa-download"></i>
-                    <span>${project.stats.downloads}</span>
-                </div>
-            </div>
             <div class="project-buttons">
                 <a href="${project.link}" class="btn btn-primary btn-small">View Project</a>
                 <a href="${project.details}" class="btn btn-secondary btn-small">Details</a>
